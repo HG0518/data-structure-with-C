@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81456DAA-A11D-4991-A4F0-45C5C30A61A8}|01\\01.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\chapter_04\\Chapter_04_exercise\\01\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{81456DAA-A11D-4991-A4F0-45C5C30A61A8}|01\\01.vcxproj|solutionrelative:01\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\16\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|solutionrelative:16\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|solutionrelative:10\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{516AA92C-C00A-498F-A6F3-12C6F55A3BAF}|16\\16.vcxproj|solutionrelative:10\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stack.h",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.h",
+              "RelativeDocumentMoniker": "10\\stack.h",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.h",
+              "RelativeToolTip": "10\\stack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-21T08:16:12.722Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\01\\main.c",
-              "RelativeDocumentMoniker": "01\\main.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\01\\main.c",
-              "RelativeToolTip": "01\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\16\\main.c",
+              "RelativeDocumentMoniker": "16\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\16\\main.c",
+              "RelativeToolTip": "16\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-04T06:57:23.27Z",
+              "WhenOpened": "2025-07-21T08:15:16.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stack.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.c",
+              "RelativeDocumentMoniker": "10\\stack.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_04\\Chapter_04_exercise\\10\\stack.c",
+              "RelativeToolTip": "10\\stack.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-21T07:37:14.582Z",
               "EditorCaption": ""
             }
           ]
