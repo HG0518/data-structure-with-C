@@ -18,7 +18,7 @@ bool is_empty(stack* s);				//스택이 비어있는지 검사하는 함수
 void push(stack* s, element data);		//스택에 data를 넣는 함수
 element pop(stack* s);					//스택으로 가장 마지막에 입력된 데이터를 반환하고 삭제하는 함수
 element peek(stack* s);					//스택으로 가장 마지막에 입력된 데이터를 반환하는 함수
-
+void free_s(stack* s);					//동적할당된 메모리를 반납하는 프로그램
 
 
 int main(void) {
@@ -69,6 +69,11 @@ void push(stack* s, element data)
 	{
 		s->size *= 2;
 		s->data = (element*)realloc(s->data, s->size * sizeof(element));
+		if (s->data == NULL)
+		{
+			printf("메모리 할당 실패");
+			exit(1);
+		}
 	}
 	s->top++;
 	s->data[s->top] = data;
@@ -93,4 +98,9 @@ element peek(stack* s)
 		exit(1);
 	}
 	return s->data[s->top];
+}
+
+void free_s(stack* s)
+{
+	free(s->data);
 }
