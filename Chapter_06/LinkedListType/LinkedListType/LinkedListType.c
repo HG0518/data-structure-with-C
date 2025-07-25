@@ -11,20 +11,33 @@ Node* creat_node(element item)
 	return newnode;
 }
 
-void insert_first(Node** head, element item)
+Header* creat_header()
 {
-	Node* newnode = creat_node(item);
-	newnode->link = *head;
-	*head = newnode;
+	Header* newheader = (Header*)malloc(sizeof(Header));
+	if (newheader == NULL) error("NULL값 할당");
+	newheader->head = newheader->tail = NULL;
+	newheader->size = 0;
+	return newheader;
 }
 
-void insert_index(Node* head, int index, element item)
+Header* insert_first(Header* header, element item)
 {
-	if (index == 0) insert_first(&head, item);
-	else if (index > get_length(head) || index < 0)error("인덱스 오류");
+	Node* newnode = creat_node(item);
+	newnode->link = header->head;
+	header->head = newnode;
+	if (is_empty(header))header->tail = newnode;
+	header->size++;
+	return header;
+}
+
+Header* insert_index(Header* header, int index, element item)
+{
+	if (index == 0) return insert_first(header, item);
+	else if (index == header->size) return insert_last(header, item);
+	else if (index > header->size || index < 0)error("인덱스 오류");
 	else {
 		Node* pre;
-		pre = head;
+		pre = header->head;
 		for (int i = 0; i < index - 1; i++)
 		{
 			pre = pre->link;
@@ -32,60 +45,80 @@ void insert_index(Node* head, int index, element item)
 		Node* newnode = creat_node(item);
 		newnode->link = pre->link;
 		pre->link = newnode;
+		header->size++;
+		return header;
 	}
 }
 
-void delete_first(Node** head)
+Header* insert_last(Header* header, element item)
 {
-	Node* tmp = *head;
-	*head = tmp->link;
-	free(tmp);
+	Node* newnode = creat_node(item);
+	header->tail->link = newnode;
+	header->tail = newnode;
+	if (is_empty(header)) header->head = newnode;
+	header->size++;
+	return header;
 }
 
-void delete_index(Node* head, int index)
+Header* delete_first(Header* header)
 {
-	if (index == 0) delete_first(&head);
-	else if (index >= get_length(head) || index < 0)error("인덱스 오류");
+	if (is_empty(header)) error("리스트가 공백상태입니다.");
+	Node* tmp = header->head;
+	header->head = tmp->link;
+	header->size--;
+	if (is_empty(header)) header->tail == NULL;
+	free(tmp);
+	return header;
+}
+
+Header* delete_index(Header* header, int index)
+{
+	if (is_empty(header)) error("리스트가 공백상태입니다.");
+	else if (index == 0) return delete_first(header);
+	else if (index >= header->size || index < 0)error("인덱스 오류");
 	else {
 		Node* pre;
-		pre = head;
+		pre = header->head;
 		for (int i = 0; i < index - 1; i++)
 		{
 			pre = pre->link;
 		}
 		Node* removed = pre->link;
 		pre->link = removed->link;
-		free(removed);		
+		if (index == header->size) header->tail = pre;
+		header->size--;
+		free(removed);
+		return header;
 	}
 }
 
-void print_list(Node* head)
+Header* delete_last(Header* header)
 {
-	for (Node* p = head; p != NULL; p = p->link)
+	header = delete_index(header, header->size - 1);
+	if (is_empty(header)) header->head = header->tail == NULL;
+	return header;
+}
+
+void print_list(Header* header)
+{
+	for (Node* p = header->head; p != NULL; p = p->link)
 	{
 		printf("%d > ", p->data);
 	}
 	printf("NULL \n");
 }
 
-element get_index(Node* head, int index)
+element get_index(Header* header, int index)
 {
-	if (index >= get_length(head) || index < 0) error("인덱스 오류");
-	Node* tmp = head;
+	if (index >= header->size || index < 0) error("인덱스 오류");
+	Node* tmp = header->head;
 	for (int i = 0; i < index; i++) tmp = tmp->link;
 	return tmp->data;
 }
 
-int get_length(Node* head)
+int is_empty(Header* header)
 {
-	int len = 0;
-	for (Node* n = head; n != NULL; n = n->link)len++;
-	return len;
-}
-
-int is_empty(Node* head)
-{
-	return head == NULL;
+	return header->size == 0;
 }
 
 void error(char* msg)
@@ -94,10 +127,10 @@ void error(char* msg)
 	exit(1);
 }
 
-Node* reverse(Node* head)
+Header* reverse(Header* header)
 {
 	Node* p, * q, * r;
-	p = head;
+	p = header->head;
 	r = NULL;
 	while (p != NULL)
 	{
@@ -106,7 +139,10 @@ Node* reverse(Node* head)
 		q->link = r;
 		r = q;
 	}
-	return r;
+	p = header->head;
+	header->head = header->tail;
+	header->tail = header->head;
+	return header;
 }
 
 
