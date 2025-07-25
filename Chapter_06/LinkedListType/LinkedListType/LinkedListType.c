@@ -94,3 +94,19 @@ void error(char* msg)
 	exit(1);
 }
 
+Node* reverse(Node* head)
+{
+	Node* p, * q, * r;
+	p = head;
+	r = NULL;
+	while (p != NULL)
+	{
+		q = p;
+		p = p->link;
+		q->link = r;
+		r = q;
+	}
+	return r;
+}
+
+

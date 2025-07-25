@@ -18,6 +18,7 @@ element get_index(Node* head, int index);
 int get_length(Node* head);
 int is_empty(Node* head);
 void error(char* msg);
+Node* reverse(Node* head);
 
 
 #endif // !LINKEDLISTTYPE_H

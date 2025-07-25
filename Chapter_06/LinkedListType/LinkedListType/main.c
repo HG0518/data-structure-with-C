@@ -9,6 +9,7 @@ int main(void)
 
 	printf("리스트 길이 : %d\n", get_length(head));
 	printf("index = 2 데이터값 : %d\n", get_index(head, 2));
+	head = reverse(head);							print_list(head);
 
 	delete_index(head, 2);							print_list(head);
 	delete_first(&head);							print_list(head);
