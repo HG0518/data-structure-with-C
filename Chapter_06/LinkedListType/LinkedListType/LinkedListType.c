@@ -53,9 +53,14 @@ Header* insert_index(Header* header, int index, element item)
 Header* insert_last(Header* header, element item)
 {
 	Node* newnode = creat_node(item);
+	if (is_empty(header))
+	{
+		header->tail = header->head = newnode;
+		header->size++;
+		return header;
+	}
 	header->tail->link = newnode;
 	header->tail = newnode;
-	if (is_empty(header)) header->head = newnode;
 	header->size++;
 	return header;
 }
@@ -144,5 +149,26 @@ Header* reverse(Header* header)
 	header->tail = header->head;
 	return header;
 }
+
+
+void delete_item(Header** header, element item)
+{
+	int index = 0;
+	int n = (*header)->size;
+	Node* p = (*header)->head;
+	for (int i=0;i<n;i++)
+	{
+		if (p->data == item) 
+		{
+			p = p->link;
+			*header = delete_index(*header, index);
+			continue;
+		}
+		index++;
+		p = p->link;
+	}
+}
+
+
 
 

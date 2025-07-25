@@ -30,6 +30,8 @@ element get_index(Header* header, int index);
 int is_empty(Header* header);
 void error(char* msg);
 Header* reverse(Header* header);
+void delete_item(Header** header, element item);
+
 
 
 #endif // !LINKEDLISTTYPE_H
