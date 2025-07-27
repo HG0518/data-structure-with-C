@@ -1,7 +1,10 @@
 #ifndef LINKEDLISTTYPE_H
 #define LINKEDLISTTYPE_H
 
-typedef int element;
+typedef struct {
+	int coef;
+	int expon;
+}element;
 
 typedef struct Node
 {

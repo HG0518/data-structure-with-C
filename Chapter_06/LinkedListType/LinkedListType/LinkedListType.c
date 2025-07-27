@@ -153,6 +153,7 @@ Header* reverse(Header* header)
 
 void delete_item(Header** header, element item)
 {
+	/*
 	int index = 0;
 	int n = (*header)->size;
 	Node* p = (*header)->head;
@@ -167,6 +168,7 @@ void delete_item(Header** header, element item)
 		index++;
 		p = p->link;
 	}
+	*/
 }
 
 
