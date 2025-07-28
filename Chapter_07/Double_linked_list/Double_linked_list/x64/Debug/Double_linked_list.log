@@ -1,0 +1,9 @@
+﻿  double_linked_list.c
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\double_linked_list.c(48,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\double_linked_list.c(48,9): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\double_linked_list.c(49,8): warning C4047: '함수': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\double_linked_list.c(49,8): warning C4024: 'error': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\double_linked_list.c(50,1): warning C4717: 'error': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
+  main.c
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\Double_linked_list\main.c(21,2): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Double_linked_list.vcxproj -> C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_07\Double_linked_list\x64\Debug\Double_linked_list.exe
