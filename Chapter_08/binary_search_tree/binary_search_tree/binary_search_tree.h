@@ -13,6 +13,8 @@ Node* insert_node(Node* root, element item);
 Node* delete_node(Node* root, element item);
 Node* min_value_node(Node* root);
 void inorder(Node* root);
+void preorder(Node* root);
+void postorder(Node* root);
 int is_empty(Node* root);
 void error(char* msg);
 

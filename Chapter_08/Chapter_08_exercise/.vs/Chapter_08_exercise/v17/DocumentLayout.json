@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|solutionrelative:13-17\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|solutionrelative:22\\phone_book.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73885CEB-2007-428C-BDE2-50274C87C374}|13\\13.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73885CEB-2007-428C-BDE2-50274C87C374}|13\\13.vcxproj|solutionrelative:13\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|solutionrelative:22\\phone_book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|solutionrelative:13-17\\binary_tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C90B6AF6-F110-40E5-A189-06913F1866F2}|13-17\\13-17.vcxproj|solutionrelative:13-17\\binary_tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{337B8265-3FB4-497B-B2B9-2ED5BE89C8C9}|22\\22.vcxproj|solutionrelative:22\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\main.c",
-              "RelativeDocumentMoniker": "13-17\\main.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\main.c",
-              "RelativeToolTip": "13-17\\main.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-29T08:05:17.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "binary_tree.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.c",
-              "RelativeDocumentMoniker": "13-17\\binary_tree.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.c",
-              "RelativeToolTip": "13-17\\binary_tree.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\main.c",
+              "RelativeDocumentMoniker": "22\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\main.c",
+              "RelativeToolTip": "22\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-29T08:06:13.848Z",
+              "WhenOpened": "2025-07-31T01:53:24.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "binary_tree.h",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.h",
-              "RelativeDocumentMoniker": "13-17\\binary_tree.h",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13-17\\binary_tree.h",
-              "RelativeToolTip": "13-17\\binary_tree.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-29T08:06:00.557Z",
+              "DocumentIndex": 0,
+              "Title": "phone_book.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.c",
+              "RelativeDocumentMoniker": "22\\phone_book.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.c",
+              "RelativeToolTip": "22\\phone_book.c",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-31T01:59:44.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13\\main.c",
-              "RelativeDocumentMoniker": "13\\main.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\13\\main.c",
-              "RelativeToolTip": "13\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-29T08:00:23.841Z",
+              "Title": "phone_book.h",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.h",
+              "RelativeDocumentMoniker": "22\\phone_book.h",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_08\\Chapter_08_exercise\\22\\phone_book.h",
+              "RelativeToolTip": "22\\phone_book.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-31T01:59:37.552Z",
               "EditorCaption": ""
             }
           ]

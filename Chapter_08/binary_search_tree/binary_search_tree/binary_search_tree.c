@@ -68,6 +68,22 @@ void inorder(Node* root)
 	inorder(root->right);
 }
 
+void preorder(Node* root)
+{
+	if (root == NULL) return;
+	inorder(root->left);
+	inorder(root->right);
+	printf("%d ", root->key);
+}
+
+void postorder(Node* root)
+{
+	if (root == NULL) return;
+	printf("%d ", root->key);
+	inorder(root->left);
+	inorder(root->right);
+}
+
 int is_empty(Node* root)
 {
 	return root == NULL;
