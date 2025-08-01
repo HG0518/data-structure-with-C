@@ -16,7 +16,7 @@ void insert(HeapType* h, element item)
 {
 	h->size++;
 	int i = h->size;
-	while (i > 1 && h->heap[i / 2].key < item.key) {
+	while (i > 1 && h->heap[i / 2].key > item.key) {
 		h->heap[i] = h->heap[i / 2];
 		i /= 2;
 	}
@@ -34,8 +34,8 @@ element delete_max(HeapType* h)
 
 	while (child<=h->size) 
 	{
-		if ((h->heap[child].key < h->heap[child].key) && (child < h->size)) child++;
-		if (h->heap[child].key < temp.key)break;
+		if ((h->heap[child].key > h->heap[child].key) && (child < h->size)) child++;
+		if (h->heap[child].key > temp.key)break;
 		h->heap[parent] = h->heap[child];
 		parent = child;
 		child *= 2;
@@ -68,3 +68,4 @@ void error(char* msg)
 	printf("%s\n", msg);
 	exit(1);
 }
+
