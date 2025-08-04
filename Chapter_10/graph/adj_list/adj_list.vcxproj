@@ -127,12 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\adj_mat\queue.c" />
+    <ClCompile Include="..\adj_mat\stack.c" />
     <ClCompile Include="adj_list.c" />
     <ClCompile Include="main.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\adj_mat\queue.h" />
+    <ClInclude Include="..\adj_mat\stack.h" />
     <ClInclude Include="adj_list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

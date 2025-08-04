@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "adj_list.h"
+#include "../adj_mat/stack.h"
+#include "../adj_mat/queue.h"
 
 Graph* init_graph(Graph* g)
 {
@@ -79,4 +81,62 @@ int get_degree(Graph* g, int v)
 	int count = 0;
 	for (vertex* ver = g->adj_list[v]; ver != NULL; ver = ver->link) count++;
 	return count;
+}
+
+void dfs_list(Graph* g, int v)
+{
+	visited[v] = 1;
+	printf("정점 %d > ", v);
+	vertex* w;
+	for (w = g->adj_list[v]; w != NULL; w = w->link) {
+		if (!visited[w->ver])
+			dfs_list(g, w->ver);
+	}
+}
+
+void dfs_iterative(Graph* g, int v)
+{
+	stack s;
+	init_stack(&s);
+	push(&s, v);
+	while (!is_stack_empty(&s)) {
+		v = pop(&s);
+		if (!visited[v]) {
+			visited[v] = 1;
+			printf("정점 %d > ", v);
+			vertex* p;
+			for (p = g->adj_list[v]; p; p = p->link) {
+				if (!visited[p->ver]) {
+					push(&s, p->ver);
+				}
+			}
+		}
+	}
+	free_stack(&s);
+}
+
+void init_visited(int visited[])
+{
+	for (int i = 0; i < MAX_VERTICES; i++)
+		visited[i] = 0;
+}
+
+void bfs_mat(Graph* g, int v)
+{
+	queue q;
+	init_queue(&q);
+	enqueue(&q, v);
+	visited[v] = 1;
+	while (!is_queue_empty(&q))
+	{
+		v = dequeue(&q);
+		printf("정점 %d > ", v);
+		vertex* w;
+		for (w = g->adj_list[v]; w; w = w->link) {
+			if (!visited[w->ver]) {
+				visited[w->ver] = 1;
+				enqueue(&q, w->ver);
+			}
+		}
+	}
 }

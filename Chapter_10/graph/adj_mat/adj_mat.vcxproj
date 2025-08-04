@@ -131,9 +131,13 @@
     <ClCompile Include="main.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="queue.c" />
+    <ClCompile Include="stack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adj_mat.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

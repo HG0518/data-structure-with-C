@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|solutionrelative:adj_mat\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7F854257-C9E7-4BA2-A5E6-454F0D237DD0}|adj_list\\adj_list.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\adj_list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F854257-C9E7-4BA2-A5E6-454F0D237DD0}|adj_list\\adj_list.vcxproj|solutionrelative:adj_list\\adj_list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|solutionrelative:adj_mat\\adj_mat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7EEFB4-B398-4849-9822-B89584414388}|adj_mat\\adj_mat.vcxproj|solutionrelative:adj_mat\\adj_mat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7F854257-C9E7-4BA2-A5E6-454F0D237DD0}|adj_list\\adj_list.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F854257-C9E7-4BA2-A5E6-454F0D237DD0}|adj_list\\adj_list.vcxproj|solutionrelative:adj_list\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +22,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "adj_mat.h",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.h",
-              "RelativeDocumentMoniker": "adj_mat\\adj_mat.h",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.h",
-              "RelativeToolTip": "adj_mat\\adj_mat.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-02T03:25:12.466Z",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\main.c",
+              "RelativeDocumentMoniker": "adj_list\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\main.c",
+              "RelativeToolTip": "adj_list\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-04T03:07:23.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\main.c",
-              "RelativeDocumentMoniker": "adj_mat\\main.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\main.c",
-              "RelativeToolTip": "adj_mat\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Title": "adj_list.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\adj_list.c",
+              "RelativeDocumentMoniker": "adj_list\\adj_list.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_list\\adj_list.c*",
+              "RelativeToolTip": "adj_list\\adj_list.c*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-02T03:25:11.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "adj_mat.c",
-              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.c",
-              "RelativeDocumentMoniker": "adj_mat\\adj_mat.c",
-              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_10\\graph\\adj_mat\\adj_mat.c",
-              "RelativeToolTip": "adj_mat\\adj_mat.c",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-02T03:25:10.768Z",
+              "WhenOpened": "2025-08-04T03:07:22.909Z",
               "EditorCaption": ""
             }
           ]

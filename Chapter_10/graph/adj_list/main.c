@@ -6,20 +6,19 @@ int main(void)
 	Graph* g = NULL;
 	g = init_graph(g);
 
-	for (int i = 0; i < 4; i++) insert_vertex(g, i);
-	insert_edge(g, 0, 1);
-	insert_edge(g, 1, 0);
+	for (int i = 0; i < 6; i++) insert_vertex(g, i);
 	insert_edge(g, 0, 2);
-	insert_edge(g, 2, 0);
-	insert_edge(g, 0, 3);
-	insert_edge(g, 3, 0);
-	insert_edge(g, 1, 2);
+	insert_edge(g, 0, 4);
+	insert_edge(g, 1, 5);
 	insert_edge(g, 2, 1);
 	insert_edge(g, 2, 3);
-	insert_edge(g, 3, 2);
-	print_adj_list(g);
+	insert_edge(g, 2, 5);
+	insert_edge(g, 3, 5);
+	insert_edge(g, 4, 5);
 
-	printf("정점 1의 차수는 %d입니다.\n", get_degree(g, 1));
+	printf("너비 우선 탐색\n");
+	bfs_mat(g, 0);
+	printf("\n");
 	g = free_graph(g);
 	return 0;
 }

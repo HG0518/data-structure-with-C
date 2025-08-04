@@ -2,6 +2,7 @@
 #define ADJ_LIST_C
 
 #define MAX_VERTICES 50
+int visited[MAX_VERTICES];
 typedef struct vertex {
 	int ver;
 	struct vertex* link;
@@ -19,5 +20,12 @@ void print_adj_list(Graph* g);
 void error(char* msg);
 Graph* free_graph(Graph* g);
 int get_degree(Graph* g ,int v);
+void dfs_list(Graph* g, int v);
+void dfs_iterative(Graph* g, int v);
+void dfs_iterative(Graph* g, int v);
+void init_visited(int visited[]);
+void bfs_mat(Graph* g, int v);
+
+
 
 #endif // !ADJ_LIST_C
