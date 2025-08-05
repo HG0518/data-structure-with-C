@@ -127,9 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HonGong.c">
+    <ClCompile Include="..\..\graph\adj_mat\adj_mat.c" />
+    <ClCompile Include="..\..\graph\adj_mat\queue.c" />
+    <ClCompile Include="..\..\graph\adj_mat\stack.c" />
+    <ClCompile Include="main.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\graph\adj_mat\adj_mat.h" />
+    <ClInclude Include="..\..\graph\adj_mat\queue.h" />
+    <ClInclude Include="..\..\graph\adj_mat\stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

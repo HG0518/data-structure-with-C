@@ -34,7 +34,7 @@ void insert_edge(Graph* g, int start, int end)
 		return;
 	}
 	g->adj_mat[start][end] = 1;
-	//g->adj_mat[end][start] = 1;
+	g->adj_mat[end][start] = 1;
 }
 
 void print_adj_mat(Graph* g)
