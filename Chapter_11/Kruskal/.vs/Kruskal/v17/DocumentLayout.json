@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{413C937C-FADF-4BF1-915C-C082DC8C4542}|Kruskal\\Kruskal.vcxproj|solutionrelative:Kruskal\\kruskal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{413C937C-FADF-4BF1-915C-C082DC8C4542}|Kruskal\\Kruskal.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{413C937C-FADF-4BF1-915C-C082DC8C4542}|Kruskal\\Kruskal.vcxproj|solutionrelative:Kruskal\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{413C937C-FADF-4BF1-915C-C082DC8C4542}|Kruskal\\Kruskal.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\kruskal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{413C937C-FADF-4BF1-915C-C082DC8C4542}|Kruskal\\Kruskal.vcxproj|solutionrelative:Kruskal\\kruskal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\main.c",
+              "RelativeDocumentMoniker": "Kruskal\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\main.c",
+              "RelativeToolTip": "Kruskal\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-23T02:16:46.748Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,20 +45,20 @@
               "RelativeDocumentMoniker": "Kruskal\\kruskal.c",
               "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\kruskal.c",
               "RelativeToolTip": "Kruskal\\kruskal.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwEoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-22T02:04:20.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "kruskal.h",
               "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\kruskal.h",
               "RelativeDocumentMoniker": "Kruskal\\kruskal.h",
               "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Kruskal\\Kruskal\\kruskal.h",
               "RelativeToolTip": "Kruskal\\kruskal.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-22T02:04:09.636Z",
               "EditorCaption": ""
