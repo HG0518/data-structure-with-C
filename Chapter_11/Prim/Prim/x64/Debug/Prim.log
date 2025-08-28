@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_11\Prim\Prim\main.c(35,9): warning C4101: 'v' :참조되지 않은 지역 변수입니다.
+  Prim.vcxproj -> C:\Users\HG\Desktop\코딩\data_structure_with_C\Chapter_11\Prim\x64\Debug\Prim.exe
