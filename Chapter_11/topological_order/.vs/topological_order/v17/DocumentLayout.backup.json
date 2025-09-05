@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|solutionrelative:topological_order\\topo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|solutionrelative:topological_order\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32CB1D2F-AB86-4886-945C-86D5E3DC8868}|topological_order\\topological_order.vcxproj|solutionrelative:topological_order\\topo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "topo.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.c",
+              "RelativeDocumentMoniker": "topological_order\\topo.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.c*",
+              "RelativeToolTip": "topological_order\\topo.c*",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAjwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-05T05:55:42.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "topo.h",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.h",
+              "RelativeDocumentMoniker": "topological_order\\topo.h",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\topo.h",
+              "RelativeToolTip": "topological_order\\topo.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-05T05:54:39.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\main.c",
+              "RelativeDocumentMoniker": "topological_order\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\topological_order\\topological_order\\main.c",
+              "RelativeToolTip": "topological_order\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-05T05:43:33.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
