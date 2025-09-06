@@ -48,6 +48,16 @@ void prim(Graph* g, int s)
 			if (!selected[j] && g->weight[u][j] < distance[j])
 				distance[j] = g->weight[u][j];
 	}
+
+	printf("\n");
+	printf("distance : ");
+	for (int i = 0; i < g->n; i++)
+		printf("%3d ", distance[i]);
+
+	printf("\n");
+	printf("selected : ");
+	for (int i = 0; i < g->n; i++)
+		printf("%3d ", selected[i]);
 }
 
 int get_min_vertex(int n)

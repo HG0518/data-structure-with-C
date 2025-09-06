@@ -11,10 +11,13 @@ typedef struct {
 
 int distance[MAX_VERTICIES];
 int selected[MAX_VERTICIES];
+int path[MAX_VERTICIES][MAX_VERTICIES];
 
 void dijkstra(Graph g, int start_v);
 int get_minpos(int n);
 void print_status(int n);
+void init_path(Graph g);
+void print_path();
 
 int main(void)
 {
@@ -42,6 +45,7 @@ void dijkstra(Graph g, int start_v)
 		distance[i] = g.weight[start_v][i];
 		selected[i] = 0;
 	}
+	init_path();
 	selected[start_v] = 1;
 
 	for (int i = 0; i < g.n - 1; i++)
@@ -84,4 +88,9 @@ void print_status(int n)
 	for (int i = 0; i < n; i++)
 		printf("%3d ", selected[i]);
 	printf("\n\n");
+}
+
+void init_path(Graph g)
+{
+	
 }

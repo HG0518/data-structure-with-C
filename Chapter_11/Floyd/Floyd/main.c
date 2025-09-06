@@ -16,6 +16,7 @@ void floyd(Graph *g);
 
 int main(void)
 {
+	/*
 	printf("예제 풀이\n");
 	Graph g = { 7,
 		{{0,7,INF,INF,3,10,INF},
@@ -37,6 +38,18 @@ int main(void)
 	};
 	floyd(&g2);
 	return 0;
+	*/
+
+	printf("연습문제 6\n");
+	Graph g = { 6,
+		{{0,50,45,10,INF,INF},
+		{INF,0,10,15,INF,INF},
+		{INF,INF,0,INF,30,INF},
+		{20,INF,INF,0,15,INF},
+		{INF,20,35,INF,0,INF},
+		{INF,INF,INF,INF,3,0}}
+	};
+	floyd(&g);
 }
 
 void print_A(int n)
