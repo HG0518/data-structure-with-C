@@ -11,13 +11,14 @@ typedef struct {
 
 int distance[MAX_VERTICIES];
 int selected[MAX_VERTICIES];
-int path[MAX_VERTICIES][MAX_VERTICIES];
+int path[MAX_VERTICIES + 1][MAX_VERTICIES + 1];
 
 void dijkstra(Graph g, int start_v);
 int get_minpos(int n);
 void print_status(int n);
-void init_path(Graph g);
-void print_path();
+void init_path(Graph g, int u);
+void make_path(int new_v, int old_v);
+void print_path(int n);
 
 int main(void)
 {
@@ -45,7 +46,7 @@ void dijkstra(Graph g, int start_v)
 		distance[i] = g.weight[start_v][i];
 		selected[i] = 0;
 	}
-	init_path();
+	init_path(g, start_v);
 	selected[start_v] = 1;
 
 	for (int i = 0; i < g.n - 1; i++)
@@ -55,9 +56,13 @@ void dijkstra(Graph g, int start_v)
 		selected[u] = 1;
 		for (int j = 0; j < g.n; j++)
 			if (!selected[j] && distance[j] > distance[u] + g.weight[u][j])
+			{
 				distance[j] = distance[u] + g.weight[u][j];
+				make_path(u, j);
+			}
 	}
 	print_status(g.n);
+	print_path(g.n);
 }
 
 int get_minpos(int n)
@@ -90,7 +95,34 @@ void print_status(int n)
 	printf("\n\n");
 }
 
-void init_path(Graph g)
+void init_path(Graph g, int u)
 {
-	
+	for (int i = 0; i < g.n + 1; i++)
+		for (int j = 0; j < g.n + 1; j++)
+		{
+			if (j == 0)path[i][j] = u;
+			else if (i != u && g.weight[u][i] != INF && j == 1) path[i][j] = i;
+			else path[i][j] = -1;
+		}
+}
+
+void make_path(int new_v, int old_v)
+{
+	int i;
+	for (i = 0; path[new_v][i] != -1; i++)
+		path[old_v][i] = path[new_v][i];
+	path[old_v][i++] = old_v;
+	path[old_v][i] = -1;
+}
+
+void print_path(int n)
+{
+	printf("각 정점까지의 최단경로\n");
+	for (int i = 0; i < n; i++)
+	{
+		printf("정점 %d : ", i);
+		for (int j = 0; path[i][j] != -1; j++)
+			printf("정점 %d > ", path[i][j]);
+		printf("\n");
+	}
 }

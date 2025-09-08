@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Dijkstra_adj_list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{256A099B-B5AC-4E4F-9D6A-E27A13618674}|Dijkstra_adj_list\\Dijkstra_adj_list.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Dijkstra_adj_list\\Dijkstra_adj_list\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{256A099B-B5AC-4E4F-9D6A-E27A13618674}|Dijkstra_adj_list\\Dijkstra_adj_list.vcxproj|solutionrelative:Dijkstra_adj_list\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Dijkstra_adj_list\\Dijkstra_adj_list\\main.c",
+              "RelativeDocumentMoniker": "Dijkstra_adj_list\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_11\\Dijkstra_adj_list\\Dijkstra_adj_list\\main.c*",
+              "RelativeToolTip": "Dijkstra_adj_list\\main.c*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-08T02:13:50.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
