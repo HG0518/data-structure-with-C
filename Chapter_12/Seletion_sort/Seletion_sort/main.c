@@ -26,13 +26,12 @@ void selection_sort()
 	for (i = 0; i < MAX_SIZE - 1; i++)
 	{
 		min_pos = i;
-		for (j = i; j < MAX_SIZE; j++)		
-			if (list[j] < list[min_pos])		
+		for (j = i + 1; j < MAX_SIZE; j++)
+			if (list[j] < list[min_pos])
 				min_pos = j;
-			
-		
-		swap(&list[min_pos], &list[i]);		
-		
+
+		if (i != min_pos)
+			swap(&list[min_pos], &list[i]);
 	}
 
 	printf("정렬 후 list \n");
