@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Quick_sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C819F20B-D996-4B92-8D99-BFCDBC34FECA}|Quick_sort\\Quick_sort.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Quick_sort\\Quick_sort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C819F20B-D996-4B92-8D99-BFCDBC34FECA}|Quick_sort\\Quick_sort.vcxproj|solutionrelative:Quick_sort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Quick_sort\\Quick_sort\\main.c",
+              "RelativeDocumentMoniker": "Quick_sort\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Quick_sort\\Quick_sort\\main.c",
+              "RelativeToolTip": "Quick_sort\\main.c",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-11T07:39:20.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
