@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|solutionrelative:Dictionary\\dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|solutionrelative:Dictionary\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|solutionrelative:Dictionary\\quick_sort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|solutionrelative:Dictionary\\quick_sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDF3FEA0-543A-40A9-83FC-D2CAA936BB90}|Dictionary\\Dictionary.vcxproj|solutionrelative:Dictionary\\dictionary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\main.c",
+              "RelativeDocumentMoniker": "Dictionary\\main.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\main.c",
+              "RelativeToolTip": "Dictionary\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-12T11:30:03.571Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quick_sort.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.c",
+              "RelativeDocumentMoniker": "Dictionary\\quick_sort.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.c",
+              "RelativeToolTip": "Dictionary\\quick_sort.c",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-12T12:07:27.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "quick_sort.h",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.h",
+              "RelativeDocumentMoniker": "Dictionary\\quick_sort.h",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\quick_sort.h",
+              "RelativeToolTip": "Dictionary\\quick_sort.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-12T12:06:51.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dictionary.c",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.c",
+              "RelativeDocumentMoniker": "Dictionary\\dictionary.c",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.c",
+              "RelativeToolTip": "Dictionary\\dictionary.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-12T12:07:16.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dictionary.h",
+              "DocumentMoniker": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.h",
+              "RelativeDocumentMoniker": "Dictionary\\dictionary.h",
+              "ToolTip": "C:\\Users\\HG\\Desktop\\\uCF54\uB529\\data_structure_with_C\\Chapter_12\\Dictionary\\Dictionary\\dictionary.h",
+              "RelativeToolTip": "Dictionary\\dictionary.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-12T12:06:34.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
