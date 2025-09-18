@@ -7,8 +7,7 @@
 int list[MAX_SIZE];
 
 void insertion_sort();
-void swap(int* a, int* b);
-void print_list();
+void print_list(int n, int k);
 void init_list();
 
 int main(void)
@@ -19,37 +18,35 @@ int main(void)
 void insertion_sort()
 {
 	init_list();
-	printf("정렬 전 list \n");
-	print_list();
-
 	int i, j;
-	for (i = 1; i < MAX_SIZE; i++)
+	print_list(100, -1);
+	for (i = 0; i < MAX_SIZE; i++)
 	{
 		int tmp = list[i];
 		for (j = i - 1; j >= 0 && list[j] > tmp; j--)
 			list[j + 1] = list[j];
 		list[j + 1] = tmp;
-		printf("step %d\n", i);
-		print_list();
+		print_list(tmp, i);
 	}
-
-	printf("정렬 후 list \n");
-	print_list();
 }
 
-void swap(int* a, int* b)
+void print_list(int insert_n, int iteration)
 {
-	int t;
-	t = *a;
-	*a = *b;
-	*b = t;
-}
+	int i = 0;
+	printf("(");
+	if (iteration >= 0) printf("%d", list[i++]);
+	for (; i <= iteration; i++)
+		printf(",%d", list[i]);
+	printf(")\t");
 
-void print_list()
-{
-	for (int i = 0; i < MAX_SIZE; i++)
-		printf("%2d ", list[i]);
-	printf("\n\n");
+	printf("(");
+	if(i<MAX_SIZE) printf("%d", list[i++]);
+	for (; i < MAX_SIZE; i++)
+		printf(",%d", list[i]);
+	printf(")\t");
+
+	if (iteration >= 0) printf("%d삽입", insert_n);
+	printf("\n");
 }
 
 void init_list()

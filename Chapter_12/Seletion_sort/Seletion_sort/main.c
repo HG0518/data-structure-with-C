@@ -8,7 +8,7 @@ int list[MAX_SIZE];
 
 void selection_sort();
 void swap(int* a, int* b);
-void print_list();
+void print_list(int iteration, int select_n, int change_n);
 void init_list();
 
 int main(void)
@@ -19,8 +19,7 @@ int main(void)
 void selection_sort()
 {
 	init_list();
-	printf("정렬 전 list \n");
-	print_list();
+	print_list(-1, 0, 0);
 
 	int i, j, min_pos;
 	for (i = 0; i < MAX_SIZE - 1; i++)
@@ -32,10 +31,11 @@ void selection_sort()
 
 		if (i != min_pos)
 			swap(&list[min_pos], &list[i]);
-	}
 
-	printf("정렬 후 list \n");
-	print_list();
+		print_list(i, list[i], list[min_pos]);
+
+	}
+	print_list(i, list[i], list[i]);
 }
 
 void swap(int* a, int* b)
@@ -46,11 +46,23 @@ void swap(int* a, int* b)
 	*b = t;
 }
 
-void print_list()
+void print_list(int iteration, int select_n, int change_n)
 {
-	for (int i = 0; i < MAX_SIZE; i++)
-		printf("%d ", list[i]);
-	printf("\n\n");
+	int i = 0;
+	printf("(");
+	if (i <= iteration) printf("%d", list[i++]);
+	for (; i <= iteration; i++)
+		printf(",%d", list[i]);
+	printf(")\t\t");
+
+	printf("(");
+	if (i < MAX_SIZE) printf("%d", list[i++]);
+	for (; i < MAX_SIZE; i++)
+		printf(",%d", list[i]);
+	printf(")\t\t");
+
+	if (iteration < 0)printf("초기상태\n");
+	else printf("%d선택 후 %d와 교환\n", select_n, change_n);
 }
 
 void init_list()
