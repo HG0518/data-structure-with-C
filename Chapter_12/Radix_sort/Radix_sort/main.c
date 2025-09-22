@@ -26,6 +26,7 @@ int is_empty_queue(Queue* q);
 int is_full_queue(Queue* q);
 void error(char* msg);
 void init_bucket();
+void print_bucket();
 
 int main(void)
 {
@@ -53,6 +54,7 @@ void radix_sort(int n)
 			num = (list[j] / factor) % 10;
 			inqueue(&bucket[num], list[j]);
 		}
+		print_bucket();
 		for (j = k = 0; k < SIZE; k++)
 			while (!is_empty_queue(&bucket[k]))
 				list[j++] = dequeue(&bucket[k]);
@@ -131,4 +133,17 @@ void init_bucket()
 {
 	for (int i = 0; i < BUCKET_SIZE; i++)
 		init_q(&bucket[i]);
+}
+
+void print_bucket()
+{
+	printf("========================\n");
+	for (int i = 0; i < BUCKET_SIZE; i++)
+	{
+		printf("[%d]-> ", i);
+		for (int j = (bucket[i].front + 1) % SIZE; j <= bucket[i].rear; j = (j + 1) % SIZE)
+			printf("%d ", bucket[i].data[j]);
+		printf("\n");
+	}
+	printf("========================\n");
 }

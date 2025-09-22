@@ -26,6 +26,7 @@ int main(void)
 
 void merge_sort(int left, int right)
 {
+	printf("merge_sort(%d,%d)\n", left, right);
 	if (left < right)
 	{
 		int mid = (left + right) / 2;

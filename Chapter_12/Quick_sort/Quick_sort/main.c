@@ -12,6 +12,7 @@ void swap(int* a, int* b);
 void print_list();
 void init_list();
 void print_low_high(int low, int high);
+int set_pivot(int left, int right);
 
 int main(void)
 {
@@ -29,6 +30,7 @@ int main(void)
 
 void quick_sort(int left, int right)
 {
+	printf("quick_sort(%d,%d)\n", left, right);
 	if (left < right)
 	{
 		int pivot = pivoting(left, right);
@@ -39,7 +41,9 @@ void quick_sort(int left, int right)
 
 int pivoting(int left, int right)
 {
-	int pivot = list[left];
+	int pivot_pos = set_pivot(left, right);
+	int pivot = list[pivot_pos];
+	printf("pivot : %d\n", pivot);
 	int i = left;
 	int j = right + 1;
 
@@ -59,7 +63,7 @@ int pivoting(int left, int right)
 		if (i < j) swap(&list[i], &list[j]);
 	} while (i < j);
 
-	swap(&list[left], &list[j]);
+	swap(&list[pivot_pos], &list[j]);
 	print_low_high(i, j);
 
 	return j;
@@ -97,4 +101,18 @@ void print_low_high(int low, int high)
 		else printf("%5c", ' ');
 	}
 	printf("\n\n");
+}
+
+int set_pivot(int left, int right)
+{
+	int mid, midian, left_n, mid_n, right_n;
+	mid = (left + right) / 2;
+	left_n = list[left];
+	mid_n = list[mid];
+	right_n = list[right];
+	if ((mid_n > left_n && mid_n < right_n) || (mid_n<left_n && mid_n>right_n)) midian = mid;
+	else if ((left_n > mid_n && left_n < right_n) || (left_n<mid_n && left_n>right_n)) midian = left;
+	else midian = right;
+	swap(&list[midian], &list[left]);
+	return left;
 }
