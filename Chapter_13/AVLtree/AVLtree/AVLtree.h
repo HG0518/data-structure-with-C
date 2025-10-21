@@ -15,5 +15,6 @@ AVLnode* turn_right(AVLnode* parent);
 AVLnode* create_node(int key);
 AVLnode* insert_node(AVLnode* node, int key);
 void preorder(AVLnode* node);
+AVLnode* free_node(AVLnode* node);
 
 #endif // !AVLTREE_H

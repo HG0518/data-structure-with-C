@@ -81,3 +81,13 @@ void preorder(AVLnode* node)
 	preorder(node->left);
 	preorder(node->right);
 }
+
+AVLnode* free_node(AVLnode* node)
+{
+	if (node == NULL) return;
+	free_node(node->left);
+	free_node(node->right);
+	free(node);
+	node = NULL;
+	return node;
+}
