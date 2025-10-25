@@ -20,5 +20,14 @@ int main(void)
 		e.key = data[i];
 		hash_chain_search(e, hash_table);
 	}
+
+	for (int i = 0; i < 5; i++)
+	{
+		e.key = data[i];
+		printf("\n%d 삭제\n",e.key);
+		hash_chain_delete(e, hash_table);
+	}
+
+
 	return 0;
 }

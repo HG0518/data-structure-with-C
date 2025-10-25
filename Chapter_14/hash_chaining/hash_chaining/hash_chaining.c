@@ -44,20 +44,25 @@ void hash_chain_add(element item, hash_list* ht[])
 	printf("인덱스 %d에 저장되었음\n",hash_value);
 }
 
-void hash_chain_search(element item, hash_list* ht[])
+hash_list* hash_chain_search(element item, hash_list* ht[])
 {
 	int hash_value = hash_function(item.key);
 
 	hash_list* node = ht[hash_value];
-	for (; node; node = node->link)
+	hash_list* pre_node = NULL;
+	for (; node; pre_node = node, node = node->link)
 	{
 		if (node->item.key == item.key)
 		{
 			printf("해쉬테이블 %d에 있음\n", hash_value);
-			return;
+			if (pre_node)
+				return pre_node;
+			else
+				return node;
 		}
 	}
 	printf("탐색 실패\n");
+	return NULL;
 }
 
 void hash_chain_print(hash_list* ht[])
@@ -78,4 +83,36 @@ void hash_list_init(hash_list* ht[])
 {
 	for (int i = 0; i < TABLE_SIZE; i++)	
 		ht[i] = NULL;
+}
+
+void hash_chain_delete(element item, hash_list* ht[])
+{
+	hash_list* node = NULL;
+	node = hash_chain_search(item, ht);
+	int hash_value = hash_function(item.key);
+
+
+	if(node)
+	{
+		if (ht[hash_value]==node)
+		{
+			ht[hash_value] = node->link;
+			free(node);
+			node = NULL;
+		}
+		else
+		{
+			hash_list* deleted;
+			deleted = node->link;
+			node->link = deleted->link;
+			free(deleted);
+			deleted = NULL;
+		}
+		printf("데이터 제거에 성공했습니다.\n");
+		printf("제거 후 테이블\n");
+		hash_chain_print(ht);
+		return;
+	}
+
+	printf("데이터가 존재하지 않습니다.\n");
 }

@@ -20,5 +20,12 @@ int main(void)
 		hash_lp_search(e, hash_table);
 	}
 
+	printf("각 항목 삭제\n");
+	for (int i = 0; i < 7; i++)
+	{
+		strcpy(e.key, s[i]);
+		hash_lp_delete(e, hash_table);
+	}
+
 	return 0;
 }
